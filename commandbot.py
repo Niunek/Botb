@@ -85,7 +85,7 @@ async def on_message(message):
     elif message.content.lower() in ('dzien dobry') != '-1':
         await message.channel.send(f'Dzień dobry! **{message.author.display_name}**!')
 #==========================================================================      
-    elif message.content.lower("TEST"):
+    elif message.content.lower() in ("TEST") != '-1':
         await message.channel.send("działa")
 #=Tu zmieniłem=Tu zmieniłem=Tu zmieniłem=Tu zmieniłem=Tu zmieniłem=Tu zmieniłem=
 @bot.command()
